@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="shortcut icon" href="img/favicon.png" sizes="16x16">
+	<title>Ahri | ProgrammerAhri | Freelance Web Programmer and Developer</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<style type="text/css">
+      	.container{
+      		width: 1000px;
+      		margin: auto;
+
+				}
+				.container-fluid{
+					background: #a1a09d;
+				}
+				.nav-wrapper{
+					background: #f0f0f0;
+				}
+				.page-footer{
+					background: #f0f0f0;
+				}
+				h5{
+					font-family: serif;
+				}
+				h6{
+					font-family: serif;
+					font-style: italic;
+					color: black;
+				}
+      </style>
+</head>
+<body>
+	<nav>
+	<div class="nav-wrapper">
+		<ul id="nav-mobile" class="right hide-on-med-and-down ">
+			<li><a class="black-text text-darken-1" href="index.html"><strong>Home</strong></a></li>
+			<li><a class="black-text text-darken-1" href="about.html"><strong>About</strong></a></li>
+			<li><a class="black-text text-darken-1" href="portofolio.html"><strong>Portofolio</strong></a></li>
+			<li><a class="black-text text-darken-1" href="service.html"><strong>Services</strong></a></li>
+			<li><a class="black-text text-darken-1" href="contact.html"><strong>Contacts</strong></a></li>
+		</ul>
+	</div>
+</nav>
+	<div class="container-fluid">
+		<div class="row">
+					<div class="carousel">
+						<a class="carousel-item" href="https://id.wikipedia.org/wiki/HTML" target="_blank"><img src="img/slider11.jpeg"><h6 align="center">HTML and CSS</h6></a>
+						<a class="carousel-item" href="https://www.php.net/" target="_blank"><img src="img/slider12.jpg"><h6 align="center">PHP</h6></a>
+						<a class="carousel-item" href="https://www.javascript.com/" target="_blank"><img src="img/slider14.jpg"><h6 align="center">Javascript</h6></a>
+						<a class="carousel-item" href="https://id.wikipedia.org/wiki/Perencanaan_sumber_daya_perusahaan" target="_blank"><img src="img/slider15.jpg"><h6 align="center">ERP System</h6></a>
+						<a class="carousel-item" href="https://id.wikipedia.org/wiki/Perancangan_web" target="_blank"><img src="img/slider13.png"><h6 align="center">Web and App Design</h6></a>
+					</div>
+
+			<!--Import jQuery before materialize.js-->
+		       	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+			   	<script type="text/javascript">
+			      	document.addEventListener('DOMContentLoaded', function() {
+				    var elems = document.querySelectorAll('.carousel');
+				    var instances = M.Carousel.init(elems, options);
+				  });
+
+				  // Or with jQuery
+
+				  $(document).ready(function(){
+				    $('.carousel').carousel();
+				  });
+			    </script>
+		  </div>
+		</div>
+		<footer class="page-footer">
+      <div class="container">
+        <div class="row" style="margin-bottom: 0;">
+          <div class="col s12 m10 offset-m1">
+            <div class="row">
+              <div class="col l4 s12">
+                <h5 class="black-text text-darken-1"><strong>Help ozcorp development Grow</strong></h5>
+                <p class="grey-text text-darken-2">We hope you have enjoyed using Materialize and if you feel like it has helped you out and want to support the team you can help us by donating or backing us on Patreon. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+                <a class="btn waves-effect waves-light red lighten-2" href="#">Support Us</a>
+
+              </div>
+              <div class="col l4 s12">
+                <h5 class="black-text text-darken-1"><strong>Join the Discussion</strong></h5>
+                <p class="grey-text text-darken-2">We have a Gitter chat room set up where you can talk directly with us. Come in and discuss new features, future goals, general problems or questions, or anything else you can think of.</p>
+                <a class="btn waves-effect waves-light red lighten-2" target="_blank" href="#">Chat</a>
+              </div>
+              <div class="col l4 s12">
+                <h5 class="black-text text-darken-1"><strong>Connect</strong></h5>
+                <a href="https://twitter.com/niomic" class="twitter-follow-button" data-show-count="true" data-size="large" data-dnt="true"><i>Follow @Niomic</i></a>
+              </div>
+            </div>
+            <div class="footer-copyright grey-text text-darken-1">
+              © 2020 Ozcorp development team, All rights reserved.
+              <a class="grey-text text-darken-1 right" href="https://github.com/Dogfalo/materialize/blob/master/LICENSE">MIT License</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </footer>
+
+	</body>
+</html>
